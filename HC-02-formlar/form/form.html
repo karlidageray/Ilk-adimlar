@@ -12,7 +12,7 @@
         <!-- Label ve text input kullanimi -->
       <div>
         <label for="name">isim:</label>
-        <input type="text" id="name" name="Kullanici Adi"  required placeholder="Lutfen adinizi giriniz"/>
+        <input type="text" id="name" name="Kullanici Adi"   placeholder="Lutfen adinizi giriniz"/>
         <br />
         <label for="Lastname">Soyad:</label>
         <input type="text" id="Lastname" name="Kullanici Soyadi" placeholder="Lutfen Soyadinizi giriniz" />
@@ -21,7 +21,7 @@
       <!-- password -->
 <div>
         <label for="password">Sifre</label>
-        <input type="password" name="Sifre" id="password" required placeholder="Sifrenizi giriniz">
+        <input type="password" name="Sifre" id="password"  placeholder="Sifrenizi giriniz">
 
 </div>
 
@@ -34,15 +34,107 @@
 
  </div>
 
+ <!-- radio -->
+  <div>
+    <p> Cinsiyet:</p>
+<label for="Gender1">Male</label>
+<input type="radio" id="Gender1" name="Cinsiyet" value="Erkek">
+<br>
+<label for="Gender2">Female</label>
+<input type="radio" id="Gender2" name="Cinsiyet" value="Kadin">
+  </div>
+
+  <!-- Checkbox -->
+   <div>
+    <p>Favori Hayvan Dostunuz Hangisidir?</p>
+
+<label for="panda">panda</label>
+<input type="checkbox" id="panda" name="animal_1" value="panda">
+<label for="balik">balik</label>
+<input type="checkbox" id="balik" name="animal_2" value="balik">
+<label for="unicorn">unicorn</label>
+<input type="checkbox" id="unicorn" name="animal_3" value="unicorn">
+   </div>
+
+   <!-- number -->
+    <div>
+<label for="Age">Yas</label>
+<input type="number" id="Age" name="Kullanici Yasi" step="5" >
+    </div>
+   
+
+<!-- search -->
+<div>
+    <label for="Ara">Aranacak Kelime:</label>
+    <input type="search" id="Ara" name="Aranilan Kelime">
+</div>
+
+<!-- color -->
+
+<label for="color">Renk Secin</label>
+<input type="color" id="color" name="Secilen Renk"> 
+
+<!-- date -->
+<div>
+    <label for="date">Tarih seciniz</label>
+    <input type="date" id="date" name="tarih" min="2022-11-11" max="2024-04-05">
+
+</div>
+
+<!-- file -->
+ <label for="Dosya">Dosya Sec</label>
+ <input type="file" id="Dosya" name="Secilen Dosya">
+
+<!-- telefon numarasi -->
+
+<div>
+    <!-- <label for="Tel">Telefon:</label>
+    <input type="tel" name="Tel numarasi" id="Tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="xxx-xxx-xx-xx" value="0"> -->
 
 
 
+</div>
 
+<!-- select  -->
 
+<div>
+<label for="Seker">Hangi tatliyi seversin</label>
+<br>
+<select name="secilen tatli" id="Seker" size="5" multiple>
 
+    <option value="Sutlac">Sutlac</option>
+    <option value="Keskul">Keskul</option>
+    <option value="Spangule">Spangule</option>
+    <option value="magnolia">magnolia</option>
+</select>
+
+</div>
+<hr>
+<div>
+    <label for="Seker2">Hangi tatliyi seversin</label>
+    <br>
+    <select name="tatlilar" id="Seker2" size="10" multiple>
+    <optgroup label="sutlu tatlilar">
+        <option value="Sutlac">Sutlac</option>
+        <option value="Keskul">Keskul</option>
+        <option value="Spangule">Spangule</option>
+        <option value="magnolia">magnolia</option></optgroup>
+
+        <optgroup label="Serbetli tatlilar"> 
+            <option value="Kunefe">Kunefe</option>
+            <option value="Baklava">Baklava</option>
+            <option value="Sekerpare">Sekerpare</option>
+            <option value="Hayrabolu">Hayrabolu</option>
+        </optgroup>
+        
+    </select>
+    
+    </div>
 
       <br /><br /><br /><br /><br />
       <input type="submit" value="Gonder" />
+
+      
     </form>
   </body>
 </html>
