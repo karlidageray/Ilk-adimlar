@@ -1,0 +1,40 @@
+*{margin: 0;}
+
+
+
+body{
+    margin: 0px;
+}
+
+
+
+
+#baslik{
+    background-color: chocolate;
+    /* margin: 0px; */
+}
+
+#par1{
+background-color: green;
+/* margin: 0px; */
+
+/* margin: 50px; */
+
+/* margin: 20px 50px; */
+
+/* margin: 10px 50px 30px; */
+
+margin: 10px 20px 30px 40px;
+
+
+}
+
+#par2{
+
+background-color: magenta;
+/* margin: 0px; */
+
+width: 50%;
+margin: 100px auto;
+
+}
