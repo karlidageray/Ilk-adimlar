@@ -131,22 +131,60 @@
     
     </div>
 
-      <br /><br /><br /><br /><br />
-      <input type="submit" value="Gonder" />
-
-
-      <!-- textarea  -->
-
-      <div>
-          <label for="Yorum">Yorum</label><br>
-          <textarea name="girilen_yorum" id="Yorum" style="width: 50%; height: 150px; resize: none;" ></textarea>
-
-
-
-
-
-      </div>
+    
+    
+    <!-- textarea  -->
+    
+    <div>
+      <label for="Yorum">Yorum</label><br>
+      <textarea name="girilen_yorum" id="Yorum" style="width: 50%; height: 150px; resize: none;" ></textarea>
+    </div>
+    
+    
+    <!-- datalist -->
+    
+    <div>
+      <label for="input_browser">Browser:</label>
+      <input type="text" name="Kullanilan_browser" id="input_browser" list="browser">
       
+      <datalist id="browser">
+        <option value="Chrome"></option>
+        <option value="Firefox"></option>
+        <option value="Safari"></option>
+        <option value="Opera"></option>
+        <option value="Brave"></option>
+        
+      </datalist>
+      
+    </div>
+    
+<!-- fieldset  -->
+<br><br><br><br>
+<div>
+
+    <fieldset>
+
+        <legend>Kisisel Bilgiler</legend>
+        <label for="name">Ad</label>
+        <br>
+        <input type="text" name="name" placeholder="adiniz">
+        <br>
+        <label for="Surname">Soyad</label>
+        <br>
+        <input type="text" name="Surname" placeholder="Soyadiniz">
+      
+
+
+    </fieldset>
+
+</div>
+
+
+    <br /><br /><br /><br /><br />
+    
+    <input type="reset" value="Reset">
+    <input type="submit" value="Gonder" />
+
     </form>
   </body>
 </html>
