@@ -1,0 +1,53 @@
+h1 {
+  border: 2px solid red;
+
+  color: blue;
+
+  text-align: left;
+}
+
+#par1 {
+  color: blue;
+  text-align: center;
+  /* background-color: red; */
+  column-count: 3;
+  column-rule: 3px double red;
+  font-size: 1.5rem;
+}
+
+#par2 {
+  color: red;
+  text-align: right;
+  direction: rtl;
+}
+
+#par3 {
+  color: green;
+  text-align: justify;
+  text-indent: 20px;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 3px black;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+#par4 {
+  color: coral;
+  text-transform: uppercase;
+  text-decoration: underline dashed;
+}
+
+#par5 {
+  color: firebrick;
+  text-transform: capitalize;
+  text-decoration: line-through overline wavy;
+}
+
+span{
+
+    color: red;
+    border: 2px solid green;
+
+   
+}
