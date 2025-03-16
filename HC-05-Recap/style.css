@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Monsieur+La+Doulaise&display=swap');
+
+
 * {
     /* margin: 0; */
 }
@@ -61,3 +64,94 @@ ul.languages li:hover{
 
 /* PSEUDO CLASS */
 
+ul.pseudo li:first-child{
+
+    color: red;
+}
+
+ul.pseudo li:last-child{
+    color: blue;
+    /* font-family: "Caveat", cursive; */
+    font-family: "Bitter", serif;
+    /* font-family: "Monsieur La Doulaise", cursive; */
+}
+
+ul.pseudo li:nth-child(3){
+
+    color: magenta;
+}
+
+ul.pseudo li:nth-child(5){
+
+    color: olive;
+    font-size: 2rem;
+    list-style-type: none;
+    font-family: 'caveat' , cursive;
+    font-weight: 500;
+}
+
+ul.pseudo li:nth-child(odd){
+
+    background-color: olive;
+}
+
+ul.pseudo li:nth-child(even){
+
+    background-color: blue;
+}
+
+ul.pseudo li:hover{
+
+    background-color: pink;
+}
+
+ul.pseudo li:active{
+
+    background-color: red;
+    color: white;
+}
+
+input:focus{
+    background-color: tomato;
+    color: white;
+    border: 4px solid gray;
+}
+
+/* LINK PUSEUDO CLASSAS */
+
+nav.link a:link{
+    color: red;
+}
+nav.link a:visited{
+    color: darkgreen;
+}
+nav.link a:visited{
+    color: lightcoral;
+}
+nav.link a:hover{
+
+    color: blue;
+}
+
+nav.cw a{
+    text-decoration: none;
+    border: 2px solid darkorange;
+    padding: 5px;
+    margin: 10px;
+    color: gray;
+    border-radius: 10px;
+    background-color: darkorange;
+}
+
+nav.cw a:hover{
+    background-color: gray;
+    color: darkorange;
+}
+
+nav.cw a:hover i{
+    color: purple;
+}
+
+naw a i{
+    font-size: 1.1rem;
+}
