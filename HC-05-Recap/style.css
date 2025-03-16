@@ -1,0 +1,63 @@
+* {
+    /* margin: 0; */
+}
+
+body{
+    /* background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+height: 100vh; */
+
+}
+
+
+
+
+ul.languages{
+    /* border: 2px solid red; */
+    /* padding: 0; */
+
+    /* madde imi stiller */
+    list-style-type: none;
+    list-style-type: square;
+    list-style-type: circle;
+    list-style-type: lower-alpha;
+    list-style-type: georgian;
+    list-style-type: disc;
+
+
+    /* madde imleri Li'lerin icinde mi disinda mi */
+
+    list-style-position: inside;
+
+    list-style-image: url(./img/house-solid.svg);
+    
+
+}
+
+h2{
+    color: purple;
+    
+}
+
+h2 i{color: magenta;}
+
+ul.languages li{background-color: lightgreen; 
+margin: 5px;
+width: 250px;
+border-radius: 5px;
+padding-left: 20px;
+border: 2px solid orange;
+border-left: 5px solid grey;
+
+}
+
+ul.languages li:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+ul.languages li:hover{
+    background-color: red;
+}
+
+/* PSEUDO CLASS */
+
