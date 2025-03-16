@@ -1,0 +1,30 @@
+
+
+
+.fon1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+
+
+}
+.fon2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500    ;
+    text-transform: uppercase;
+
+}
+.fon3{
+
+    font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        font-variant: small-caps;
+        font-family: "Sacramento", cursive;
+
+
+}
+.fon4{
+    font-family: "Pacifico", cursive;
+    font-style: italic;
+
+
+}
