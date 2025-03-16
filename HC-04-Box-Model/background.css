@@ -1,0 +1,47 @@
+.container{
+border: 2px solid red;
+
+width: 20rem;
+height: 20rem;
+margin: 50px auto;
+padding: 10px;
+text-align: justify;
+color: yellow;
+text-shadow: 3px 3px 5px yellow;
+overflow: scroll;
+border-radius: 10px;
+box-shadow: 5px 5px 20px black;
+
+
+/* background-image: url(./img/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg); */
+
+background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.492)), url(./img/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-1500x1000.jpg);
+
+
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+
+
+
+
+}
+
+.container::-webkit-scrollbar{
+    /* width: 0; */
+    /* display: none; */
+    visibility: hidden;
+}
+
+.container2{
+
+    border: 2px solid red; 
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+
+background-image: linear-gradient(to right, red, black);
+box-shadow: 5px 5px 20px black;
+}
