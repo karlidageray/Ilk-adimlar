@@ -25,14 +25,14 @@ ul.languages{
     list-style-type: circle;
     list-style-type: lower-alpha;
     list-style-type: georgian;
-    list-style-type: disc;
+    list-style-type: none;
 
 
     /* madde imleri Li'lerin icinde mi disinda mi */
 
     list-style-position: inside;
 
-    list-style-image: url(./img/house-solid.svg);
+    /* list-style-image: url(./img/house-solid.svg); */
     
 
 }
@@ -51,6 +51,22 @@ border-radius: 5px;
 padding-left: 20px;
 border: 2px solid orange;
 border-left: 5px solid grey;
+
+}
+
+ul.languages li::before{
+
+    content: url(./img/house-solid.svg);
+    border: 2px solid red;
+    /* background-color: red; */
+    color: red;
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    /* background-image: url(./img/house-solid.svg); */
+    margin-right: 10px;
+    padding-right: 5px;
+    /* background-color: red; */
 
 }
 
@@ -154,4 +170,48 @@ nav.cw a:hover i{
 
 naw a i{
     font-size: 1.1rem;
+}
+
+/* PSEUDO ELEMENTS */
+
+.p-elements::first-line{
+
+    color: red;
+}
+
+.p-elements::first-letter{
+
+font-size: 2rem;
+font-weight: 900;
+font-family: 'Times New Roman', Times, serif;}
+
+ul.before-after{
+
+list-style-type: none;
+
+}
+
+ul.before-after li{
+    background-color: lightcoral;
+    margin: 0.5rem;
+    width: 40%;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+    text-align: left;
+    /* margin: 10px auto; */
+
+}
+
+ul.before-after li::before{
+
+content: '🏁';
+margin: 10px;
+
+}
+
+ul.before-after li:nth-child(2)::after{
+
+content: '🏁';
+margin: 10px;
+
 }
