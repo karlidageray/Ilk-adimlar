@@ -106,3 +106,21 @@ console.log(`Personelimiz ${adsoyad}in
 let personel=null
 console.log(typeof null);
 console.log(null+5)
+
+// UNDEFINED
+
+let phonenumber;
+
+console.log(phonenumber);
+
+phonenumber='+905366555555'
+console.log(phonenumber);
+console.log(typeof phonenumber);
+
+// NaN- Not a number
+let n;
+
+let result=n+15
+console.log(result);
+
+console.log(isNaN(result));
