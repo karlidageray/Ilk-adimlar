@@ -44,5 +44,16 @@ const pi=3.14
 console.log(pi);
 }
 
-console.log(pi);
+// console.log(pi);
+
+// VAR-her yerden erisilebilir. Yeniden tanimlanabilir. Kullanmamak gerekir. 
+var number=90
+
+{
+console.log(number);
+var number=50
+
+}
+
+console.log(number+15);
 
