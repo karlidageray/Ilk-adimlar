@@ -1,17 +1,18 @@
-// Çıktı almamızı sağlayan yapılar
+// Cikti almamizi saglayan yapilar
 
-console.log("intro js içindeyiz")
-console.error("Hata Mesajı")
-console.warn("UYARI")
+console.log('intro js icindeyiz');
+console.error("hata mesaji");
+console.warn('UYARI');
 
-//! Alert -uyarı oluşturmak için kullanılır
+// ALert - Uyari olusturmak icin kullanilir
 
-// alert("Lütfen adınızı girin")
+// alert('Lutfen adinizi giriniz')
 
-//! document.write
+// document.write
 
-document.write("JAVASCRİPT INTRO")
+document.write(" JAVASCRIPT INTRO")
 
-// cevap=confirm("Çıkmak istediğinie emin misiniz?")
-// console.log(cevap)
+// cevap=confirm(" Cikmak istediginize emin misiniz?")
+// console.log(cevap);
+
 
