@@ -72,4 +72,37 @@ let kimlik=12312312322
 let adsoyad='eray kar'
 
 console.log("Personelimiz", adsoyad, "in Kimlik Numarasi", kimlik)
-console.log(`Personelimiz ${adsoyad}in Kimlik Numarasi ${kimlik}`)
+
+// Template Literal, String Literal
+// Stringleri dinamik olaak kullanmayi saglar
+// Stringler yazilirken degiskenlede kullanabilmemeizi saglar
+
+console.log(`Personelimiz ${adsoyad}in 
+    Kimlik Numarasi ${kimlik}`)
+
+     console.clear()
+
+
+    //  Boolean
+    // true yada false degeri tutar 
+
+    let deger=undefined
+    console.log(Boolean(deger));
+
+    let kontrol= (sifre='12x45')
+    
+
+    if (sifre=='12x5'){
+
+        console.log('Sisteminiz acik')}
+
+        else {console.log('sisteminiz kapali')
+    }
+
+    // ........................................
+
+// NULL
+
+let personel=null
+console.log(typeof null);
+console.log(null+5)
