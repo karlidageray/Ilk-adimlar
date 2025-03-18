@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    margin: 100px auto;
+}
+
+.colorbox{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+  
+   
+
+}
+
