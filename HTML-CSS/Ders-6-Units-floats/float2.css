@@ -7,22 +7,33 @@ text-align: center;
 header{
 
     background-color: teal;
+    margin-top: 10px;
 
 }
 
 main{
 background-color: skyblue;
+padding: 5px;
+/* height: 350px; */
+/* overflow: auto; */
+
 
 }
 
 aside{
 background-color: darkorange;
+height: 300px;
+width: 25%;
+float: left;
 
 
 }
 
 article{
 background-color: greenyellow;
+height: 300px;
+width: 70%;
+float: left;
 
 
 }
@@ -30,4 +41,15 @@ background-color: greenyellow;
 footer{
 background-color: coral;
 
+}
+
+/* .clear{
+    clear: both;
+    border: none;
+} */
+
+.clearfix::after {
+    content:'';
+    clear: both;
+    display: block;
 }
