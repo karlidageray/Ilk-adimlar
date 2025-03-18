@@ -84,3 +84,61 @@ if(sayi3>enbuyuk){
 }
 
 console.log('en buyuk:', enbuyuk);
+
+// let x= Number (prompt ("Bir sayi giriniz"))
+// console.log(x);
+// let y= Number (prompt("Bir sayi daha giriniz"))
+// console.log(y);
+
+// const islem= "carpma\nBolme\nToplama\nCikarma\n"
+// let z= String (prompt("Bir islem seciniz:\n" +islem))
+// console.log(z);
+
+
+// if (z=="carpma") {console.log("Sonuc:" , x*y)}
+// else if(z== "Bolme"){console.log("Sonuc:" , x/y)}
+// else if(z== "Toplama"){console.log("Sonuc:" , x+y)}
+// else if (z== "Cikarma"){console.log("Sonuc:" , x-y)}
+
+// const yas=20
+// const cinsiyet="Erkek"
+// const saglikli= true
+
+// const kosul= yas>=18 && cinsiyet.toLocaleLowerCase()==="erkek" && saglikli === true
+
+// if (kosul === true) {
+//     console.log('askerlik yapmali')}
+//     else console.log("Askerlik yapmasi gerekmez")
+
+    // *****************************
+    // TERNARY
+    // ******************************
+
+const yas = 22
+
+yas>=18 ? console.log("Askerlik Yapmali") : console.log("Askerlik yapmaz")
+
+
+// *******************************
+// Short-Circuit
+// *****************************
+
+let salary= 40000
+let year= 12
+
+year>=10 && (salary = salary*1.5)
+console.log("MAAS:", salary);
+
+// ? tek durum varsa short circuit
+// ? 2 durum var ise ternary
+// ? 3-6 arasi durum var ise if-else
+// ? 6 dan fazla ise switch-case 
+
+//! || operatoru false ise yanindaki ifadeyi calistirir
+
+const sene = 14
+let result = "ahmet"
+
+sene>=18 || (result = "cocuk")
+
+console.log(result);
