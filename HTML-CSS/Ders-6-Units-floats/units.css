@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    border: 2px solid red;
+    /* height: 100vh; */
+}
 
 .abs{
 
@@ -10,21 +14,25 @@
     width: 350px;
     width: 10cm;
     width: 5in;
+    height: 50%;
     
 }
 
 .div2{
     background-color: blueviolet;
     width: 50%;
+    height: 200px;
 }
 
 .div3{
 
     background-color: chocolate;
     width: 50%;
+    height: 80%;
 }
 
 .div4 {
     background-color: lime;
     width: 60vw;
+    height: 10vh;
 }
