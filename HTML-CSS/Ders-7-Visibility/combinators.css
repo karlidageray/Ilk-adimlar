@@ -4,5 +4,17 @@ div p{
 }
 
 .container div p {
-    background-color: red;
+    /* background-color: red; */
+}
+
+p+div{
+    /* background-color: fuchsia; */
+}
+
+div+p {
+    /* background-color: olive; */
+}
+
+div ~ p {
+    background-color: orange;
 }
