@@ -12,16 +12,27 @@
 
 // console.log(`AVG: ${sum/ i} `)
 
-//? Aralik verme
+// //? Aralik verme
 
-const n1=3
-const n2=5
-let sum=0
+// const n1=3
+// const n2=5
+// let sum=0
 
-if (n1>n2) {
-    console.log("n2 should be bigger than n1")
-} else {
-    for (let i=n1; i<=n2; i++) {
-        sum += i 
-    } console.log("SUM", sum);
+// if (n1>n2) {
+//     console.log("n2 should be bigger than n1")
+// } else {
+//     for (let i=n1; i<=n2; i++) {
+//         sum += i 
+//     } console.log("SUM", sum);
+// }
+
+//? break - continue
+
+for(let i=0; i<=10; i++) {
+
+
+    if(i%2){
+        break
+    }
+    console.log(i);
 }
