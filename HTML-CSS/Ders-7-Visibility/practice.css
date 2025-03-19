@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+
+}
+header {
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+padding: 1rem;
+
+}
+header a img {
+    width: 60px;
+
+}
+
+header .Sign-in{
+
+    float: right;
+    padding-top: 2rem;
+    padding-right: 0.5rem;
+    color: #932118;
+
+    
+}
+
+header .Sign-in a{
+    color: #932118;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header .Sign-in a:hover {
+
+border-bottom: 2px solid #932118;}
+
+nav.Sticky {
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+padding: 2rem;
+text-align: center;
+/* position: sticky;
+top: 0; */
+}
+
+nav.Sticky a{
+    color: black;
+    font-family: "DynaPuff", system-ui;
+    text-decoration: none;
+    margin-right: 0.8rem;
+}
+
+nav.Sticky a:hover{
+
+    color: white;
+}
+
+nav.banner{
+position: relative;
+}
+
+nav.banner img{
+    width: 100%;
+    max-height: calc(100vh - 204px);
+}
+
+
+nav.banner .hero {
+
+    border: none;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+nav.banner .hero h2{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 3px 4px black;
+}
+nav.banner .hero h3{
+color: red;
+font-size: 1rem;
+text-shadow: 0 3px 4px black;
+}
+nav.banner .hero button{
+padding: 0.7rem;
+border: none;
+outline: none;
+border-radius: 10px;
+font-weight: 70%;
+background-color: pink;
+}
+
+nav.banner .hero button:hover{
+
+    opacity: 0.5;
+    cursor: pointer;
+}
