@@ -1,0 +1,8 @@
+div p{
+
+    /* background-color: olive; */
+}
+
+.container div p {
+    background-color: red;
+}
