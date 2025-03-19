@@ -5,8 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./display.css">
     <title>Display</title>
+
+    <style>
+a{
+background-color: aqua;
+margin: 50px;
+/* display: inline-block; */
+padding: 20px;
+width: 100px;
+width: 100px;
+
+}
+
+button{
+background-color: olive;
+padding: 20px;
+
+}
+
+span{
+background-color: orange;
+margin: 20px;
+padding: 50px;
+display: block;
+
+}
+
+.box{
+
+    background-color: green;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#box2 {
+
+    background-color: darkorange;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+#box22 {
+
+    background-color: crimson;
+}
+
+
+
+
+    </style>
 </head>
 <body>
     
+    <!-- inline elements -->
+
+     <!-- inline elementlere genislik ve yuksekli veremezsiniz. Margin ve padding sagdan ve soldan alir. Ancak inline block ise yukaridan ve asagidan alabilir. Eger yukaridan ve asagidan almasini istyorsaniz display ozelliklerini degistirmeniz gerekir -->
+
+<a href="ilkadimlar">ilkadimlar</a>
+
+
+
+<button>Ilkadimlar</button>
+<span>hello world</span>
+
+
+
+
+
+    <!-- block elements -->
+
+    <div class="box">div1</div>
+    <div class="box" id="box2" onclick="this.style.visibility='hidden'">hidden</div>
+    <div class="box">div3</div>
+
+    <br><br>
+    <div class="box">div1</div>
+    <div class="box" id="box22" onclick="this.style.display='none'">none</div>
+    <div class="box">div3</div>
+
 </body>
 </html>
