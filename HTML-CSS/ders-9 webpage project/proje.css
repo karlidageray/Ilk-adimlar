@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+
+    background-color: #efefef;
+    font-family: "Judson", serif;
+}
+.container{
+
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 50px black ;
+}
+
+.iconbar{
+/* border: 2px solid blue; */
+display: flex;
+justify-content: space-between;
+padding: 10px 50px;
+flex-wrap: wrap;
+margin-left: 3rem;
+border-bottom: 2px solid #d9d9d9;
+
+}
+
+.input-part{
+/* border: 2px solid green; */
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.search-input{
+
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    margin-left: 1rem;
+    padding: .5rem;
+}
+.search-input input{
+    background-color: inherit;
+    border: none;
+    font-size: 1rem;
+}
+
+.input-part select {
+    /* border: 2px solid red; */
+    width: 188px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    font-family: "Bellota", system-ui;
+
+}
+
+.support{
+    /* border: 2px solid red; */
+    text-align: right;
+
+}
+.support .support-number {
+    /* border: 2px solid red; */
+    font-size: 2rem;
+    
+}
+
+.support .support-text {
+font-size: 0.8rem;
+
+}
+.logo{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 5px black;
+    margin: 1rem;
+
+}
+
+.icons{
+/* border: 2px solid red; */
+margin-right: 2rem;
+
+}
+
+.icons img{
+
+    padding: 10px;
+}
+
+.navbar{
+/* border: 2px solid red; */
+display: flex;
+align-items: center;
+padding: 10px 50px ;
+margin-left: 3rem;
+border-radius: 5px;
+font-style: italic;
+
+
+}
+
+.buton {
+/* border: 2px solid blue; */
+display: flex;
+align-items: center;
+padding: 1rem;
+height: 40px;
+font-size: 1.3rem;
+gap: 1rem;
+background-color: #d9d9d9;
+
+
+}
+
+.nav{
+/* border: 2px solid greenyellow; */
+
+
+}
+
+li{
+
+display: inline-block;
+margin: 1rem;
+
+}
+
+header{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+background-image: url(./images/stock.jpg);
+padding: 1rem 5rem;
+margin-top: 1rem;
+gap: 1rem;
+
+}
+
+.essential{
+    background-color: #D5DEE5;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.essential-text{
+
+    /* border: 2px solid red; */
+    padding: 20px;
+    font-style: italic;
+    letter-spacing: 0.3px;
+}
+
+.lighting{
+
+background-color: #FBC868;
+width: 400px;
+height: 300px;
+/* overflow: hidden; */
+position: relative;
+box-shadow: 5px 5px 10px black;
+
+}
+
+.lighting img{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+}
+
+.light{
+
+    /* border: 2px solid red; */
+    width: 80%;
+    float: right;
+    margin-top: 20px;
+    font-style: italic;
+    padding: 2rem;
+}
+
+
+.CategorySection{
+background-color: #aea08b;
+
+}
+
+.categorypart, .productpart{
+    padding: 2rem;
+    font-size: 1.5rem;
+
+
+}
+
+.categories{
+    /* border: 2px solid red ; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+
+
+
+}
+
+.category{
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    background-color: #eeecec;
+    padding: 1rem 2px 1rem 1rem;
+    border-radius: 10px;
+    font-family: "Josefin Slab", serif;
+
+}
+
+.category img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+padding: 1rem 10px 1rem 1rem;
+border-radius: 2rem;
+
+}
+
+.productsection{
+background-color: #eeecec;
+
+}
+
+
+.products{
+/* border: 2px solid red; */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+margin: 1rem;
+
+}
+
+.product{
+width: 20rem;
+height: 20rem;
+background-color: #d9d9d9;
+/* margin: 1rem; */
+text-align: center;
+box-shadow: 2px 2px 20px black;
+border-radius: 1rem;
+overflow: hidden;
+object-fit: cover;
+
+
+
+}
+
+.product img{
+    width: 100%;
+    height: 90%;
+}
+
+.contact{
+background-color: #aea08b;
+display: flex;
+padding: 2rem;
+gap: 1rem;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.expert{
+background-color: inherit;
+width: 50%;
+padding: 1rem;
+}
+
+.lookforexpert{
+    font-family: "Bellota", system-ui;
+    font-size: 2rem;
+    line-height: 1.5;
+
+}
+
+.leaveinfo{
+margin-top: 1rem;
+line-height: 1.5;
+
+
+}
+
+span {
+
+    color: #f37705;
+}
+
+.formsection{
+    /* border: 2px solid red; */
+background-color: inherit;
+width: 40%; font-size: 1.5rem;
+}
+
+.formelement {
+    margin: 1.5rem 1rem;
+}
+.formelement input{
+width: 100%;
+background-color: inherit;
+padding: 0.5rem 0;
+border: none;
+border-bottom: 1px solid black;
+
+    
+}
+
+.Submit{
+    padding: 1rem;
+    border-radius: 5px;
+    width: 13rem;
+    height: 40px;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.copywright{
+display: flex;
+justify-content: space-between;
+padding: 2rem;
+align-items: center;
+
+}
+
+.left{
+/* background-color: red; */
+
+
+}
+
+.policy{
+/* background-color: blue; */
+display: flex;
+gap: 1rem;
+
+}
+
+.policy a{
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid black;
+}
