@@ -1,0 +1,322 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+    background-color: #EFEFEF;
+    
+}
+
+.container{
+
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 50px black ;
+}
+
+.tepekisim{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+    margin: 0 0 0 48px;
+    border-radius: 5px;
+    background-color: #EFEFEF;
+    border-bottom: 2px solid #D9D9D9;
+
+}
+
+.left {
+display: flex;
+flex-wrap: wrap;
+/* border: 2px solid red; */
+gap: 1rem;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.left img{
+
+    width: 50px;
+    height: 50px;
+}
+.left select{
+    font-family: "Bellota", system-ui;}
+
+.search {
+    
+        display: flex;
+        /* border:2px solid red; */
+        background-color: #D9D9D9;
+        width: 300px;
+        height: 40px;
+        margin-right: 0;
+        justify-content: space-between;
+}
+
+.search input{
+    border: none;
+    background-color: #D9D9D9;
+    font-family: "Judson", serif;
+    width: 183px;
+}
+.search img {
+    border: none;
+    background-color: #D9D9D9;
+    height: 40px;
+    /* border: 2px solid red; */
+}
+
+.numara{
+/* border: 2px solid red; */
+text-align: right;
+margin: 0;
+
+}
+
+.number{
+
+padding: 0;
+margin: 0;
+font-size: 32px;
+text-align: left;
+
+}
+
+.support{
+width: 203px;
+height: 15px;
+padding: 0;
+margin: 0;
+font-size: 13px;
+}
+
+.navkismi{
+    display: flex;
+    padding: 10px 50px 10px 50px;
+    align-items: center;  
+    background-color: #EFEFEF; 
+    margin: 0 0 0 48px; 
+}
+
+.buton{
+
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-family: "Judson", serif;
+    background-color: #D9D9D9;
+    padding: 0 1rem;
+
+}
+
+
+.buton img{
+    width: 23px;
+    height: 21px;
+}
+
+.categories li{
+display: inline-block;
+padding: 1rem;
+font-family: "Judson", serif;
+font-size: 16px;
+
+}
+
+header{
+    /* border: 2px solid red; */
+    background-image: url(./images/stock.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.essential{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5dee5;
+    padding: 1rem ;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    margin: 1rem;
+
+
+}
+
+.essential img{
+    width: 250px;
+    height: 300px;
+}
+
+.lighting{
+    /* display: flex; */
+    background-color: #FBC868;
+    position: relative;
+    width: 400px;
+    height: 300px;  
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    box-shadow: 5px 5px 10px black;
+
+
+
+}
+
+.lighting p {
+    /* border: 2px solid red; */
+    float: right; 
+    padding: 3rem;  
+    
+
+}
+
+.lighting img{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+}
+
+.kategoriler{
+    background-color: #AEA08D ;
+    padding: 1rem;
+}
+
+
+
+.Odalar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Odakutu{
+    width: 320px;
+    height: 320px;
+    margin: 1rem;
+    background-color: #EEECEC;
+    
+    padding: 16px 10px 16px 16px;
+    border-radius: 5px;
+
+}
+
+.Odakutu img {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 85%;
+    object-fit: cover;
+    /* padding: 1rem 10px 1rem 1rem; */
+    border-radius: 2rem;
+    margin: 0 0 0 1.5rem;
+
+}
+
+.Odakutu p{
+ font-family: "Josefin Slab", serif;
+ font-size: 24px;
+padding: 0.5rem;
+margin: 0;
+
+}
+.product {
+
+    background-color:#EFEFEF;
+    
+}
+
+.product-text{
+    font-family: "Judson", serif;
+    padding: 1rem;
+
+}
+
+.Urunler{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.Urunkutu {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    margin: 1rem;
+    
+    
+}
+
+.Urunkutu img {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.Urunkutu p{
+
+    margin-top: 0;
+}
+
+.formpart {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #AEA08D;
+    padding: 2rem 5rem;
+    justify-content: space-between;
+}
+
+.expert{
+    font-family: "Bellota", system-ui;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.leave {
+    font-family: "Judson", serif;
+    font-size: 16px;
+
+}
+
+.expert span{
+
+    color: #E97C30;
+}
+
+.forminfo label{
+
+    font-family: "Judson", serif;  
+    font-size: 24px;
+}
+
+.forminfo input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 5px;
+    width: 13rem;
+    height: 40px;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
